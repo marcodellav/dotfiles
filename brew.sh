@@ -15,7 +15,7 @@ brew cask install discord
 brew cask install google-backup-and-sync
 #brew cask install skype
 brew cask install gimp
-brew cask install vlc
+#brew cask install vlc
 brew cask install hyperdock
 brew cask install divvy
 
