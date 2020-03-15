@@ -1,3 +1,6 @@
+#For this to work as root in macOS, change root's shell to bash with
+#sudo dscl . -change /Users/root UserShell /bin/sh /bin/bash
+
 # Load dotfiles:
 for file in ~/.{bash_prompt,aliases,private}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
